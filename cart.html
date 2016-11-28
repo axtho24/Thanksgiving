@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="stylecart.css">
+    <script src="https://use.fontawesome.com/3bc5c307c9.js"></script>
+  </head>
+  <body>
+    <section class="store">
+      <p class="title"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Store</p>
+      <ul id="list1" class="items">
+      </ul>
+    </section>
+
+    <section class="cart">
+      <p class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</p>
+      <ul id="list2" class="items">
+      </ul>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <script src="maincart.js"></script>
+    <script id="entry-template" type="text/x-handlebars-template">
+            <li class="entry">
+              <img src="{{picture}}" height="200" width="200"/>
+              <h4>{{names}}</h4>
+              <p class="body">{{Price}}</p>
+            </li>
+    </script>
+
+  </body>
+</html>

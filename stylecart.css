@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  width: 80%;
+  margin-left: 8em;
+}
+
+ul {
+  list-style: none;
+  text-align: -webkit-center;
+  padding: 0;
+}
+
+i {
+  margin-right: .5em;
+}
+
+li{
+  border: solid thin black;
+  border-radius: 2em;
+  width: 17em;
+}
+
+.title {
+  font-size: 3em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.store {
+  background: lightgray;
+  width: 50%;
+  height: 101em;
+  margin: 0;
+}
+
+.cart {
+  float: right;
+  background: red;
+  width: 50%;
+  height: 101em;
+  margin: 0;
+}
+
+#list2 {
+  height: 95em;
+}
